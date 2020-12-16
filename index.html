@@ -7,12 +7,888 @@
         <link rel="stylesheet" href="main.css">
     </head>
     <body>
-        <h1>Heading</h1>
+        <h1>Key Codes</h1>
+        
+        <div id="display">
+        </div>
 
         
         <script>
             $(document).ready(function(){
-                //script
+                //ALT
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 18){
+                        e.preventDefault()
+                        $('#display').html('Alt Key<br>'+code)
+                    }
+                }); 
+                //ARROW DOWN
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 40){
+                        e.preventDefault()
+                        $('#display').html('Arrow down key<br>'+code)
+                    }
+                });
+
+                //ARROW LEFT
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 37){
+                        e.preventDefault()
+                        $('#display').html('Arrow left key <br>'+code)
+                    }
+                });
+
+                //ARROW RIGHT
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 39){
+                        e.preventDefault()
+                        $('#display').html('Arrow right key<br>'  +code)
+                    }
+                });
+
+                //ARROW UP
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 38){
+                        e.preventDefault()
+                        $('#display').html('Arrow up key <br>'  +code)
+                    }
+                });
+                //BACKSPACE
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 8){
+                        e.preventDefault()
+                        $('#display').html('Backspce key <br>'  +code)
+                    }
+                });
+
+                //CAPS LOCK
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 20){
+                        e.preventDefault()
+                        $('#display').html('Caps lock <br>'  +code)
+                    }
+                });
+
+                //CTRL
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 17){
+                        e.preventDefault()
+                        $('#display').html('CTRL key <br>'  +code)
+                    }
+                });
+
+                //DELETE
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 46){
+                        e.preventDefault()
+                        $('#display').html('Delete key <br>'  +code)
+                    }
+                });
+
+                //END
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 35){
+                        e.preventDefault()
+                        $('#display').html('End key <br>'  +code)
+                    }
+                });
+
+                //ENTER
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 13){
+                        e.preventDefault()
+                        $('#display').html('Enter key <br>'  +code)
+                    }
+                });
+
+                //ESC
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 27){
+                        e.preventDefault()
+                        $('#display').html('Esc key <br>'  +code)
+                    }
+                });
+
+                //F1
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 112){
+                        e.preventDefault()
+                        $('#display').html('F1 key <br>'  +code)
+                    }
+                });
+
+                //F2
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 113){
+                        e.preventDefault()
+                        $('#display').html('F2 key <br>'  +code)
+                    }
+                });
+
+                //F3
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 114){
+                        e.preventDefault()
+                        $('#display').html('F3 key <br>'  +code)
+                    }
+                });
+
+                //F4
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 115){
+                        e.preventDefault()
+                        $('#display').html('F4 key <br>'  +code)
+                    }
+                });
+
+                //NUM PAD 0
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 96){
+                        e.preventDefault()
+                        $('#display').html('F5 key <br>'  +code)
+                    }
+                });
+
+                //NUM PAD 1
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 97){
+                        e.preventDefault()
+                        $('#display').html('(Num pad) 1 key <br>'  +code)
+                    }
+                });
+
+                
+                //NUM PAD 2
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 98){
+                        e.preventDefault()
+                        $('#display').html('(Num pad) 2 key <br>'  +code)
+                    }
+                });
+
+                //NUM PAD 3
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 99){
+                        e.preventDefault()
+                        $('#display').html('(Num pad) 3 key  <br>'  +code)
+                    }
+                });
+
+                //NUM PAD 4
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 100){
+                        e.preventDefault()
+                        $('#display').html('(Num pad) 4 key <br>'  +code)
+                    }
+                }); 
+
+                //NUM PAD 5
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 101){
+                        e.preventDefault()
+                        $('#display').html('(Num pad) 5 key <br>'  +code)
+                    }
+                }); 
+
+                 //NUM PAD 6
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 102){
+                        e.preventDefault()
+                        $('#display').html('(Num pad) 6  key <br>'  +code)
+                    }
+                }); 
+
+                //NUM PAD 7
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 103){
+                        e.preventDefault()
+                        $('#display').html('(Num pad) 7 key <br>'  +code)
+                    }
+                }); 
+
+                //NUM PAD 8
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 104){
+                        e.preventDefault()
+                        $('#display').html('(Num pad) 8 key <br>'  +code)
+                    }
+                });
+
+                //NUM PAD 9
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 105){
+                        e.preventDefault()
+                        $('#display').html('(Num pad) 9 key <br>'  +code)
+                    }
+                }); 
+
+                //PAGE DOWN
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 34){
+                        e.preventDefault()
+                        $('#display').html('Page down key <br>'  +code)
+                    }
+                }); 
+
+
+                //PAGE UP
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 33){
+                        e.preventDefault()
+                        $('#display').html('Page up key <br>'  +code)
+                    }
+                });
+
+                //PAUSE
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 19){
+                        e.preventDefault()
+                        $('#display').html('Pause key <br>'  +code)
+                    }
+                }); 
+
+                //PRINT SCREEN
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 44){
+                        e.preventDefault()
+                        $('#display').html('Print Screen key <br>'  +code)
+                    }
+                }); 
+
+                //SCROLL LOCK
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 145){
+                        e.preventDefault()
+                        $('#display').html('Scroll lock key <br>'  +code)
+                    }
+                }); 
+
+                //SHIFT
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 16){
+                        e.preventDefault()
+                        $('#display').html('Shift key <br>'  +code)
+                    }
+                }); 
+
+                //SPACEBAR
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 32){
+                        e.preventDefault()
+                        $('#display').html('Spacebar key <br>'  +code)
+                    }
+                }); 
+
+                //TAB
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 9){
+                        e.preventDefault()
+                        $('#display').html('Tab key <br>'  +code)
+                    }
+                });
+
+                //A
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 65){
+                        e.preventDefault()
+                        $('#display').html('A key <br>'  +code)
+                    }
+                }); 
+
+                //B
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 66){
+                        e.preventDefault()
+                        $('#display').html('B key <br>'  +code)
+                    }
+                }); 
+
+                //C
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 67){
+                        e.preventDefault()
+                        $('#display').html('C key <br>'  +code)
+                    }
+                }); 
+
+                //D
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 68){
+                        e.preventDefault()
+                        $('#display').html('D key <br>'  +code)
+                    }
+                }); 
+
+                 //E
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 69){
+                        e.preventDefault()
+                        $('#display').html('E key <br>'  +code)
+                    }
+                }); 
+
+                 //F
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 70){
+                        e.preventDefault()
+                        $('#display').html('F key <br>'  +code)
+                    }
+                }); 
+
+                //G
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 71){
+                        e.preventDefault()
+                        $('#display').html('G key <br>'  +code)
+                    }
+                }); 
+
+                //H
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 72){
+                        e.preventDefault()
+                        $('#display').html('H key <br>'  +code)
+                    }
+                }); 
+
+                //I
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 73){
+                        e.preventDefault()
+                        $('#display').html('I key <br>'  +code)
+                    }
+                }); 
+
+                //J
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 74){
+                        e.preventDefault()
+                        $('#display').html('J key <br>'  +code)
+                    }
+                }); 
+
+                
+                //K
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 75){
+                        e.preventDefault()
+                        $('#display').html('K key <br>'  +code)
+                    }
+                }); 
+
+                //L
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 76){
+                        e.preventDefault()
+                        $('#display').html('L ley <br>'  +code)
+                    }
+                }); 
+
+                //M
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 77){
+                        e.preventDefault()
+                        $('#display').html('M key <br>'  +code)
+                    }
+                }); 
+
+                //N
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 78){
+                        e.preventDefault()
+                        $('#display').html('N key <br>'  +code)
+                    }
+                }); 
+
+                 //O
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 79){
+                        e.preventDefault()
+                        $('#display').html('O key <br>'  +code)
+                    }
+                }); 
+
+                //F5
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 116){
+                        e.preventDefault()
+                        $('#display').html('F5 key <br>'  +code)
+                    }
+                }); 
+
+                //F6
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 117){
+                        e.preventDefault()
+                        $('#display').html('F6 key <br>'  +code)
+                    }
+                }); 
+
+                //F7
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 118){
+                        e.preventDefault()
+                        $('#display').html('F7 key <br>'  +code)
+                    }
+                }); 
+
+                 //F8
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 119){
+                        e.preventDefault()
+                        $('#display').html('F8 key <br>'  +code)
+                    }
+                }); 
+
+                //F9
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 120){
+                        e.preventDefault()
+                        $('#display').html('F9 key <br>'  +code)
+                    }
+                }); 
+
+                                
+                //F10
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 121){
+                        e.preventDefault()
+                        $('#display').html('F10 key <br>'  +code)
+                    }
+                }); 
+
+                //F11
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 122){
+                        e.preventDefault()
+                        $('#display').html('F11 key <br>'  +code)
+                    }
+                }); 
+
+                //F12
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 123){
+                        e.preventDefault()
+                        $('#display').html('F12 key <br>'  +code)
+                    }
+                });
+
+                //HOME
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 136){
+                        e.preventDefault()
+                        $('#display').html('Home <br>'  +code)
+                    }
+                }); 
+
+                //INSERT
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 45){
+                        e.preventDefault()
+                        $('#display').html('Insert key <br>'  +code)
+                    }
+                }); 
+
+                //NUM LOCK
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 144){
+                        e.preventDefault()
+                        $('#display').html('Num lock key <br>'  +code)
+                    }
+                }); 
+
+                //NUM PAD -
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 109){
+                        e.preventDefault()
+                        $('#display').html('(Num pad) - key <br>'  +code)
+                    }
+                }); 
+
+                //NUM PAD *
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 106){
+                        e.preventDefault()
+                        $('#display').html('(Num pad) * key <br>'  +code)
+                    }
+                }); 
+
+                //NUM PAD .
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 110){
+                        e.preventDefault()
+                        $('#display').html('(Num pad) . key <br>'  +code)
+                    }
+                }); 
+
+                //NUM PAD /
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 111){
+                        e.preventDefault()
+                        $('#display').html('(Num pad) / key <br>'  +code)
+                    }
+                }); 
+
+                //NUM PAD +
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 107){
+                        e.preventDefault()
+                        $('#display').html('Num pad) + key <br>'  +code)
+                    }
+                }); 
+
+                //P
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 80){
+                        e.preventDefault()
+                        $('#display').html('P key <br>'  +code)
+                    }
+                }); 
+
+                //Q
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 81){
+                        e.preventDefault()
+                        $('#display').html('Q key <br>'  +code)
+                    }
+                }); 
+
+                //R
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 82){
+                        e.preventDefault()
+                        $('#display').html('R key <br>'  +code)
+                    }
+                }); 
+
+                //S
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 83){
+                        e.preventDefault()
+                        $('#display').html('S key <br>'  +code)
+                    }
+                }); 
+
+                //T
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 84){
+                        e.preventDefault()
+                        $('#display').html('T key <br>'  +code)
+                    }
+                }); 
+
+                //U
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 85){
+                        e.preventDefault()
+                        $('#display').html('U key <br>'  +code)
+                    }
+                }); 
+
+                //V
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 86){
+                        e.preventDefault()
+                        $('#display').html('V key <br>'  +code)
+                    }
+                }); 
+
+                //W
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 87){
+                        e.preventDefault()
+                        $('#display').html('W key <br>'  +code)
+                    }
+                }); 
+
+                //X
+                 $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 88){
+                        e.preventDefault()
+                        $('#display').html('X key <br>'  +code)
+                    }
+                }); 
+
+                //Y
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 89){
+                        e.preventDefault()
+                        $('#display').html('Y key <br>'  +code)
+                    }
+                }); 
+
+                //Z
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 90){
+                        e.preventDefault()
+                        $('#display').html('Z key <br>'  +code)
+                    }
+                }); 
+
+                //1
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 49){
+                        e.preventDefault()
+                        $('#display').html('1 key <br>'  +code)
+                    }
+                }); 
+
+                //2
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 50){
+                        e.preventDefault()
+                        $('#display').html('2 key <br>'  +code)
+                    }
+                }); 
+
+                //3
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 51){
+                        e.preventDefault()
+                        $('#display').html('3 key <br>'  +code)
+                    }
+                }); 
+
+                //4
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 52){
+                        e.preventDefault()
+                        $('#display').html('4 key <br>'  +code)
+                    }
+                }); 
+
+                //5
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 53){
+                        e.preventDefault()
+                        $('#display').html('5 key <br>'  +code)
+                    }
+                }); 
+
+                //6
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 54){
+                        e.preventDefault()
+                        $('#display').html('6 key <br>'  +code)
+                    }
+                }); 
+
+                //7
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 55){
+                        e.preventDefault()
+                        $('#display').html('7 key <br>'  +code)
+                    }
+                }); 
+
+                //8
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 56){
+                        e.preventDefault()
+                        $('#display').html('8 key <br>'  +code)
+                    }
+                }); 
+
+                //9
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 57){
+                        e.preventDefault()
+                        $('#display').html('9 key <br>'  +code)
+                    }
+                }); 
+
+                //0
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 48){
+                        e.preventDefault()
+                        $('#display').html('0 key <br>'  +code)
+                    }
+                }); 
+
+                //`
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 222){
+                        e.preventDefault()
+                        $('#display').html(' ` key <br>'  +code)
+                    }
+                });  
+
+                //-
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 189){
+                        e.preventDefault()
+                        $('#display').html('- key <br>'  +code)
+                    }
+                });  
+
+                //'
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 188){
+                        e.preventDefault()
+                        $('#display').html(' speech mark key <br>'  +code)
+                    }
+                });  
+
+                //.
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 190){
+                        e.preventDefault()
+                        $('#display').html(' . key <br>'  +code)
+                    }
+                });   
+
+                // /
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 191){
+                        e.preventDefault()
+                        $('#display').html(' / key <br>'  +code)
+                    }
+                });  
+
+                // ;
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 186){
+                        e.preventDefault()
+                        $('#display').html(' / key <br>'  +code)
+                    }
+                });  
+
+                // [
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 186){
+                        e.preventDefault()
+                        $('#display').html(' [ key <br>'  +code)
+                    }
+                });  
+
+                // \
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 220){
+                        e.preventDefault()
+                        $('#display').html(' slash key <br>'  +code)
+                    }
+                });  
+
+                // ]
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 221){
+                        e.preventDefault()
+                        $('#display').html(' ] key <br>'  +code)
+                    }
+                });  
+
+                // `
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 192){
+                        e.preventDefault()
+                        $('#display').html(' ` key <br>'  +code)
+                    }
+                });  
+
+                // =
+                $('body').keyup(function(e){
+                    var code = e.which
+                    if(code == 187){
+                        e.preventDefault()
+                        $('#display').html(' = key <br>'  +code)
+                    }
+                });  
             })
         </script>
     </body>
