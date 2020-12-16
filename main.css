@@ -1,0 +1,16 @@
+body{
+    font-size: 40px;
+    font-family: Helvetica;
+    color: darkblue;
+    background-color: lightblue;
+    line-height: 1.5m;
+    text-align: center;
+}
+
+#display {
+    border: solid;
+    border-right-style: none ;
+    border-left-style: none ;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
